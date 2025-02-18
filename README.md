@@ -12,3 +12,7 @@ Change line #56 to the video recording file path. For real-time usage, uncomment
 Change the data file name in line #83 as desired.
 
 Run the script.
+
+
+# Declaration of generative AI in coding
+This script was generated with the help of  OpenAI’s ChatGPT-3.5 
