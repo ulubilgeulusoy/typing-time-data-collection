@@ -90,7 +90,7 @@ def main():
         remaining_time_seconds = remaining_frames / fps
         minutes, seconds = divmod(remaining_time_seconds, 60)
         timer_text = f"Time left: {int(minutes)}:{int(seconds):02d} min"
-        cv2.putText(frame, timer_text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
+        cv2.putText(frame, timer_text, (290, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
 
         cv2.imshow("Hand Tracking", frame)
 
@@ -104,3 +104,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
