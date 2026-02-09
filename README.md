@@ -31,4 +31,4 @@ Each line in `DATA_FILE.txt` looks like:
 - Change the output file name by editing the `open("DATA_FILE.txt", ...)` call.
 
 ## Declaration of generative AI in coding
-This script was originally drafted with help from OpenAI’s ChatGPT and then refined for this project.
+This script was originally drafted with help from OpenAI's ChatGPT and then refined for this project.
